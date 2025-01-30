@@ -26,6 +26,8 @@ setTimeout(updateText,400)
  const nav=document.querySelector("nav");
  const navOffset =nav.offsetTop;
 
+ 
+
 window.addEventListener("scroll",()=>{
   nav.style.backgroundColor="transparent";
 

@@ -23,6 +23,17 @@ body{
    
     
 }
+
+
+
+
+
+
+
+
+
+
+
 @keyframes body{
     from{
         opacity: 0;
@@ -31,7 +42,7 @@ body{
         opacity: 1;
     }
 }
-
+/*
 .tog{
    display: flex;
    flex-direction: column;
@@ -44,8 +55,8 @@ body{
     text-decoration: none;
     font-size: 18px;
     
-}
-/*
+} */
+
 .stickyy{
     position: fixed;
     top: 0;
@@ -100,7 +111,7 @@ nav{
     font-size: 30px;
     font-weight: 700;
    
- }  */
+ }  
 
  .bi-linkedin{margin-top: 8px;}
  
@@ -236,7 +247,7 @@ section{
  .ab{
     animation: autoroto linear;
     animation-timeline: view();
-    width: 700px;
+    max-width: 700px;
     text-align: center;
      
   }
@@ -334,7 +345,13 @@ section{
 }
 
 
-
+.picpro{
+    max-width: 350px;
+    
+}
+.icons a{
+    text-decoration: none;
+}
 @keyframes progres{
     0%{
     opacity: 0;
@@ -368,6 +385,10 @@ section{
     font-size: 40px;
     color: #ffffff;
  }
+ .bi-linkedin{
+    margin-top: 0px;
+    margin-left: 5px;
+ }
  @media (min-width: 319px) and (max-width: 480px) {
     .pintro {
       width: 300px;
@@ -386,7 +407,7 @@ section{
   }
   @media (min-width: 481px) and (max-width: 1200px) {
     .ab {
-        width: 350px;
+        width: 700px;
     }
   }
   .projectscontainer{
@@ -409,6 +430,13 @@ section{
     transform: scale(1.01);
  
    }
+
+  .nameofproject{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+
+  }
 
   @keyframes projects{
     0%{
@@ -578,3 +606,57 @@ label{
     color: white;
     cursor: text;
 }
+
+@media (width< 540px) {
+    nav ul li a{
+        font-size: 16px;
+       color:  white;
+     }
+     .logo{
+    text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+
+
+    .stickyy{
+        position: fixed;
+        top: 0;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        
+        background-color: #071818;
+        position: fixed;
+        z-index: 1;
+     }
+    
+    
+    .resumebtn{
+        text-decoration: none;
+    }
+     nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        animation: body 0.5s;
+        
+     }
+     nav ul li{
+        list-style: none;
+        animation: body 0.5s;
+     }
+     
+     nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+       
+     }  
+     }

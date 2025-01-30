@@ -29,7 +29,7 @@ setTimeout(updateText,400)
  
 
 window.addEventListener("scroll",()=>{
-  nav.style.backgroundColor="transparent";
+  nav.style.backgroundColor="";
 
 }) 
 window.addEventListener("load",()=>{

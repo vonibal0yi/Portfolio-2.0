@@ -387,7 +387,7 @@ section{
  }
  .bi-linkedin{
     margin-top: 0px;
-    margin-left: 5px;
+    margin-left: 0px;
  }
  @media (min-width: 319px) and (max-width: 480px) {
     .pintro {
@@ -611,6 +611,7 @@ label{
     nav ul li a{
         font-size: 16px;
        color:  white;
+       
      }
      .logo{
     text-align: center;
@@ -643,7 +644,7 @@ label{
      nav ul{
         display: flex;
         justify-content: center;
-        gap: 25px;
+        gap: 15px;
         animation: body 0.5s;
         
      }
